@@ -1,0 +1,7 @@
+[project]
+name = "fastapi-env-banner"
+version = "0.1.0"
+description = "A powerful library for differentiating between dev and production environments"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
