@@ -61,10 +61,14 @@ class EnvBannerMiddleware(BaseHTTPMiddleware):
             else:
                 html_content = banner_html + html_content
             
+            # Remove Content-Length header since we modified the content
+            headers = dict(response.headers)
+            headers.pop("content-length", None)
+            
             return Response(
                 content=html_content,
                 status_code=response.status_code,
-                headers=dict(response.headers),
+                headers=headers,
                 media_type="text/html",
             )
         except UnicodeDecodeError:
