@@ -15,6 +15,20 @@ A lightweight and simple library for adding visual environment banners to FastAP
 Inspired by <code>django-env-notice</code>, but specifically designed for FastAPI with a focus on simplicity and ease of integration.
 </p>
 
+---
+
+<div align="center">
+
+### 📸 See it in action
+
+<img src="public/demo.png" alt="FastAPI Environment Banner Demo" width="800">
+
+*Visual environment indicators help prevent mistakes by clearly showing which environment you're working in*
+
+</div>
+
+---
+
 ## Features
 
 - **Simple and Lightweight**: Just a few lines of code to integrate
