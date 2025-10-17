@@ -7,6 +7,7 @@
 [![PyPI version](https://badge.fury.io/py/fastapi-env-banner.svg)](https://badge.fury.io/py/fastapi-env-banner)
 [![Python Versions](https://img.shields.io/pypi/pyversions/fastapi-env-banner.svg)](https://pypi.org/project/fastapi-env-banner/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Documentation](https://img.shields.io/badge/docs-mkdocs-blue.svg)](https://pinnlabs.github.io/fastapi-env-banner/)
 
 </div>
 
@@ -19,7 +20,7 @@ Inspired by <code>django-env-notice</code>, but specifically designed for FastAP
 
 <div align="center">
 
-### 📸 See it in action
+### See it in action
 
 <img src="public/demo.png" alt="FastAPI Environment Banner Demo" width="800">
 
@@ -37,6 +38,10 @@ Inspired by <code>django-env-notice</code>, but specifically designed for FastAP
 - **Swagger UI Support**: Banner also appears in API documentation
 - **Zero Configuration**: Works out-of-the-box with sensible defaults
 - **Secure**: Banner disabled in production by default
+
+## Documentation
+
+Full documentation is available at **[pinnlabs.github.io/fastapi-env-banner](https://pinnlabs.github.io/fastapi-env-banner/)**
 
 ## Installation
 
