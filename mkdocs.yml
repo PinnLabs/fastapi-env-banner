@@ -5,7 +5,7 @@ site_url: https://pinnlabs.github.io/fastapi-env-banner/
 
 repo_name: pinnlabs/fastapi-env-banner
 repo_url: https://github.com/pinnlabs/fastapi-env-banner
-edit_uri: edit/main/docs/
+edit_uri: edit/master/docs/
 
 theme:
   name: material
